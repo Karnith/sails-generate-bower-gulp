@@ -1,6 +1,6 @@
 ![image_squidhome@2x.png](http://i.imgur.com/RIvu9.png)
 
-# sails-generate-bower
+# sails-generate-bower-gulp (under development, not production ready)
 
 
 A `bower` generator for use with the Sails command-line interface.
@@ -12,7 +12,7 @@ Certain generators are installed by default in Sails, but they can be overridden
 
 <!--
 ```sh
-$ npm install sails-generate-bower -g
+$ npm install -g sails-generate-bower-gulp
 ```
 -->
 
@@ -39,7 +39,7 @@ var sailsgen = require('sails-generate');
 var scope = {
 	rootPath: path.resolve(__dirname)
 };
-sailsgen(require('sails-generate-bower'), scope, function (err) {
+sailsgen(require('sails-generate-bower-gulp'), scope, function (err) {
 	if (err) throw err;
 
 	// It worked.
