@@ -1,6 +1,6 @@
 ![image_squidhome@2x.png](http://i.imgur.com/RIvu9.png)
 
-# sails-generate-bower-gulp (under development, not production ready)
+# sails-generate-bower-gulp
 
 
 A `bower` generator for use with the Sails command-line interface.
