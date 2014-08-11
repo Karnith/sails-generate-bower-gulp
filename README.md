@@ -10,11 +10,10 @@ A `bower` generator for use with the Sails command-line interface.
 
 Certain generators are installed by default in Sails, but they can be overridden.  Check the [Sails docs](http://sailsjs.org/#!documentation) for information on installing generator overrides / custom generators.
 
-<!--
+
 ```sh
 $ npm install -g sails-generate-bower-gulp
 ```
--->
 
 
 ### Usage
