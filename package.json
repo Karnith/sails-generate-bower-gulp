@@ -4,7 +4,6 @@
   "description": "Add bower support for Sails when using gulp.",
   "main": "lib/index.js",
   "homepage": "http://github.com/karnith/sails-generate-bower-gulp",
-  "issues" : "http://github.com/karnith/sails-generate-bower-gulp/issues",
   "scripts": {
     "test": "mocha"
   },
@@ -26,6 +25,13 @@
     "sails-generate": "*",
     "reportback": "*",
     "fs-extra": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/karnith/sails-generate-bower-gulp"
+  },
+  "bugs": {
+    "url": "https://github.com/karnith/sails-generate-bower-gulp/issues"
   },
   "sailsGenerator": {
     "type": "bower",
