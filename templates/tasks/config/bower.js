@@ -11,7 +11,7 @@ module.exports = function(gulp, plugins) {
 	gulp.task('bower:copy', ['bower:install'], function() {
 		return gulp.src('./bower_components/**/*.min.(js|css|css.map|js.map)')
 				.pipe(gulp.dest('./assets/vendor'))
-				.pipe(plugins.notify({ message: 'Bower task complete' }));
+				.pipe(plugins.notify({ message: 'Bower copy task complete' }));
 	});
 	
 	gulp.task('bower:install', function() {
