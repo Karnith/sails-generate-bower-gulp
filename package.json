@@ -1,10 +1,10 @@
 {
-  "name": "sails-generate-bower",
-  "version": "0.0.2",
-  "description": "Add bower support for Sails.",
+  "name": "sails-generate-bower-gulp",
+  "version": "0.0.1",
+  "description": "Add bower support for Sails when using gulp.",
   "main": "lib/index.js",
-  "homepage": "http://github.com/smies/sails-generate-bower",
-  "url" : "http://github.com/smies/sails-generate-bower/issues",
+  "homepage": "http://github.com/karnith/sails-generate-bower-gulp",
+  "url" : "http://github.com/karnith/sails-generate-bower-gulp/issues",
   "scripts": {
     "test": "mocha"
   },
@@ -13,9 +13,10 @@
     "generator",
     "sails",
     "generate",
-    "plugin"
+    "plugin",
+    "gulp"
   ],
-  "author": "smies",
+  "author": "Karnith",
   "license": "MIT",
   "dependencies": {
   	"lodash": ">=2.4.x",
