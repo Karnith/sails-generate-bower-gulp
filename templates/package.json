@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "gulp-bower": "*",
-    "merge-stream":"*"
+    "gulp-bower": "*"
   }
 }
