@@ -7,15 +7,15 @@
  *
  */
 
-module.exports = function(gulp, plugins) {
+module.exports = function(gulp, plugins, growl) {
 	gulp.task('bower:install', function() {
 		return plugins.bower()
 				.pipe(gulp.dest('./bower_components'))
-				.pipe(plugins.notify({ message: 'Bower install task complete' }));
+				.pipe(plugins.if(growl, plugins.notify({ message: 'Bower install task complete' })));
 	});
 	gulp.task('bower:copy', function() {
 		return gulp.src('./bower_components/**/*.min.*')
 				.pipe(gulp.dest('./assets/vendor'))
-				.pipe(plugins.notify({ message: 'Bower copy task complete' }));
+				.pipe(plugins.if(growl, plugins.notify({ message: 'Bower copy task complete' })));
 	});
-};
+}
