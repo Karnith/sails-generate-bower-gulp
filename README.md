@@ -82,3 +82,9 @@ See `FAQ.md`.
 [npm-url]: https://npmjs.org/package/sails-generate-bower-gulp
 [npm-version-image]: http://img.shields.io/npm/v/sails-generate-bower-gulp.svg?style=flat
 [npm-downloads-image]: http://img.shields.io/npm/dm/sails-generate-bower-gulp.svg?style=flat
+
+[dependency-image]: http://img.shields.io/gemnasium/karnith/sails-generate-bower-gulp.svg?style=flat
+[dependency-url]: https://gemnasium.com/karnith/sails-generate-bower-gulp
+
+[coverage-image]: http://img.shields.io/coveralls/karnith/sails-generate-bower-gulp/master.svg?style=flat
+[coverage-url]: https://coveralls.io/r/karnith/sails-generate-bower-gulp?branch=master
