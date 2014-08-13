@@ -86,5 +86,5 @@ See `FAQ.md`.
 [dependency-image]: https://gemnasium.com/Karnith/sails-generate-bower-gulp.svg?style=flat
 [dependency-url]: https://gemnasium.com/Karnith/sails-generate-bower-gulp
 
-[coverage-image]: http://img.shields.io/coveralls/karnith/sails-generate-bower-gulp/master.svg?style=flat
-[coverage-url]: https://coveralls.io/r/karnith/sails-generate-bower-gulp?branch=master
+[coverage-image]: http://img.shields.io/coveralls/Karnith/sails-generate-bower-gulp/master.svg?style=flat
+[coverage-url]: https://coveralls.io/r/Karnith/sails-generate-bower-gulp?branch=master
