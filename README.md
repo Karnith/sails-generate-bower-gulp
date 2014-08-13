@@ -1,7 +1,5 @@
 ![image_squidhome@2x.png](http://i.imgur.com/RIvu9.png)
-
 # sails-generate-bower-gulp
-
 -----------------------------------------------
 [![NPM version][npm-version-image]][npm-url] [![NPM downloads][npm-downloads-image]][npm-url] [![Dependency Status][dependency-image]][dependency-url] [![Coverage Status][coverage-image]][coverage-url] [![MIT License][license-image]][license-url]
 
