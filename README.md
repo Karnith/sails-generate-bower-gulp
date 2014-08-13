@@ -2,6 +2,9 @@
 
 # sails-generate-bower-gulp
 
+-----------------------------------------------
+[![NPM version][npm-version-image]][npm-url] [![NPM downloads][npm-downloads-image]][npm-url] [![Dependency Status][dependency-image]][dependency-url] [![Coverage Status][coverage-image]][coverage-url] [![MIT License][license-image]][license-url]
+
 
 A `bower` generator for use with the Sails command-line interface.
 
