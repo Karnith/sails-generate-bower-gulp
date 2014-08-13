@@ -70,7 +70,7 @@ See `FAQ.md`.
 ### License
 
 **[MIT](./LICENSE)**
-&copy; 2014 [James Smtih](http://github.com/smies)
+&copy; 2014 [Karnith](http://github.com/Karnith)
 
 [Sails](http://sailsjs.org) is free and open-source under the [MIT License](http://sails.mit-license.org/).
 
