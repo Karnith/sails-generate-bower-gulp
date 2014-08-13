@@ -83,7 +83,7 @@ See `FAQ.md`.
 [npm-version-image]: http://img.shields.io/npm/v/sails-generate-bower-gulp.svg?style=flat
 [npm-downloads-image]: http://img.shields.io/npm/dm/sails-generate-bower-gulp.svg?style=flat
 
-[dependency-image]: http://img.shields.io/gemnasium/karnith/sails-generate-bower-gulp.svg?style=flat
+[dependency-image]: https://gemnasium.com/Karnith/sails-generate-bower-gulp.svg?style=flat
 [dependency-url]: https://gemnasium.com/Karnith/sails-generate-bower-gulp
 
 [coverage-image]: http://img.shields.io/coveralls/karnith/sails-generate-bower-gulp/master.svg?style=flat
