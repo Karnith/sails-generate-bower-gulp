@@ -4,7 +4,9 @@
 [![NPM version][npm-version-image]][npm-url] [![NPM downloads][npm-downloads-image]][npm-url] [![Dependency Status][dependency-image]][dependency-url] [![MIT License][license-image]][license-url]
 
 
-A `bower` generator for use with the Sails command-line interface.
+A `bower` generator for use with the Sails command-line interface. It will download bower packages to ./bower_components and then move them to ./assets/vendor folder. Now using main-bower-files for moving files in the boser.json main section.
+
+See 
 
 
 ### Installation
