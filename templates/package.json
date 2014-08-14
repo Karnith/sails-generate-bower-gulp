@@ -1,6 +1,6 @@
 {
   "dependencies": {
     "gulp-bower": "*",
-    "gulp-bower-files": "*"
+    "main-bower-files": "*"
   }
 }
