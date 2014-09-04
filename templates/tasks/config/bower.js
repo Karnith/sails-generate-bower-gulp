@@ -14,7 +14,9 @@ module.exports = function(gulp, plugins, growl) {
 				.pipe(plugins.if(growl, plugins.notify({ message: 'Bower install task complete' })));
 	});
 	gulp.task('bower:copy', function() {
-		return gulp.src(plugins.bowerFiles(), { base: './bower_components' })
+		return gulp.src(plugins.bowerFiles({
+			includeDev: true
+		}), { base: './bower_components' })
 				.pipe(gulp.dest('./assets/vendor'))
 				.pipe(plugins.if(growl, plugins.notify({ message: 'Bower copy task complete' })));
 	});
